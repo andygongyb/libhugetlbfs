@@ -617,7 +617,7 @@ void debug_show_page_sizes(void)
 			hpage_sizes[i].mount);
 }
 
-#define LINE_MAXLEN	2048
+#define LINE_MAXLEN	4096
 static void find_mounts(void)
 {
 	int fd;
